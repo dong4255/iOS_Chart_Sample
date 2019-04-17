@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		008BB6F5CF8A64BFCC6FE022 /* Pods_iOS_Chart_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC80B3D01CD1E80E09A81A0 /* Pods_iOS_Chart_Sample.framework */; };
 		F5173CF421B8BB5B00416F90 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5173CF321B8BB5B00416F90 /* LineView.swift */; };
-		F5173CF921B8D5C200416F90 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5173CF821B8D5C200416F90 /* BalloonMarker.swift */; };
+		F523FC5422671567001998FD /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F523FC5322671567001998FD /* BalloonMarker.swift */; };
 		F5393B4A21B924F400FB5AFE /* CoinList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5393B4921B924F400FB5AFE /* CoinList.swift */; };
 		F5393B4C21B9252F00FB5AFE /* ResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5393B4B21B9252F00FB5AFE /* ResponseStatus.swift */; };
 		F5393B4E21B927FC00FB5AFE /* CoinInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5393B4D21B927FC00FB5AFE /* CoinInfo.swift */; };
@@ -51,7 +51,7 @@
 		64312DA8BF824BB9D48350BE /* Pods-iOS_Chart_Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Chart_Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_Chart_Sample/Pods-iOS_Chart_Sample.release.xcconfig"; sourceTree = "<group>"; };
 		9AC80B3D01CD1E80E09A81A0 /* Pods_iOS_Chart_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Chart_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5173CF321B8BB5B00416F90 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
-		F5173CF821B8D5C200416F90 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BalloonMarker.swift; path = "../../../Charts_Sample/ChartsDemo-iOS/Swift/Components/BalloonMarker.swift"; sourceTree = "<group>"; };
+		F523FC5322671567001998FD /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
 		F5393B4921B924F400FB5AFE /* CoinList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinList.swift; sourceTree = "<group>"; };
 		F5393B4B21B9252F00FB5AFE /* ResponseStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseStatus.swift; sourceTree = "<group>"; };
 		F5393B4D21B927FC00FB5AFE /* CoinInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinInfo.swift; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 			children = (
 				F5E111DE21B7D70100590B2D /* LineViewController.swift */,
 				F5173CF321B8BB5B00416F90 /* LineView.swift */,
-				F5173CF821B8D5C200416F90 /* BalloonMarker.swift */,
+				F523FC5322671567001998FD /* BalloonMarker.swift */,
 			);
 			path = Line;
 			sourceTree = "<group>";
@@ -407,9 +407,9 @@
 				F5B0EAD1219D69F20073C814 /* KLineViewController.swift in Sources */,
 				F55BDD9421AD46C70079DAC3 /* MyExtension.swift in Sources */,
 				F5E111DD21B7D6F200590B2D /* RootTableViewController.swift in Sources */,
-				F5173CF921B8D5C200416F90 /* BalloonMarker.swift in Sources */,
 				F5B0EAFD219D6CC70073C814 /* KLineView.swift in Sources */,
 				F5393B4A21B924F400FB5AFE /* CoinList.swift in Sources */,
+				F523FC5422671567001998FD /* BalloonMarker.swift in Sources */,
 				F5393B5021B929D400FB5AFE /* QuoteInfo.swift in Sources */,
 				F5B0EACF219D69F20073C814 /* AppDelegate.swift in Sources */,
 				F5393B4C21B9252F00FB5AFE /* ResponseStatus.swift in Sources */,
