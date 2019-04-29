@@ -9,5 +9,5 @@ target 'iOS_Chart_Sample' do
    pod 'Alamofire'
    pod 'SwiftyJSON'
    pod 'SnapKit'
-   pod 'HandyJSON'
+   pod 'HandyJSON', '~> 5.0.0-beta.1'
 end
